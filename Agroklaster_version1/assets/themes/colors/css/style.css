@@ -23,7 +23,7 @@ hover effect
 
 
 /* HTML5 styles */
-header, nav, article, section, aside, footer {display: block;} 
+header, article, section, aside, footer {display: block;}
 /* HTML5 styles-end */
 
 img{max-width: 100%; width:auto}
@@ -35,107 +35,16 @@ max-width: 100%
 
 /********* reset *********/
 
-a:link, a:visited{ 
-outline:none;
-text-decoration:none;
-}
-ul, ol { 
-line-height: 1.6; 
-margin: 0 0 22px 0;  
-padding:0;
+
+
+ul li, ol li{
 list-style:none;
 }
 
-ul li, ol li{ 
-margin: 0 0 11px 0; 
-padding:0; 
-list-style:none;
-font-size:15px;
-}
-
-.liststyle1 ul li{ 
-list-style:square;
-font-size:14px;
-}
-
-
-.liststyle2 ol li{ 
-list-style:circle;
-}
-
-h1, h2, h3, h4, h5, h6 {
-color:#555555;
-font-family:pt sans, serif;
-font-weight:normal;
-}
-
-h1, h2{
-line-height:1.2;
-}
-
-h3, h4, h5, h6{
-line-height:1.4;
-}
-
-h6 {
-font-size:12px;
-}
-h5 {
-font-size:14px;
-}
-h4 {
-font-size:18px;
-}
-h3 {
-font-size:22px;
-}
-h2 {
-font-size:36px;
-}
-h1 {
-font-size:44px;
-}
 
 
 
-p{
-color:#555555;
-font-size:14px;
-font-weight:normal;
-line-height:1.6;
-margin:0 0 22px 0;
-}
-address {
-font-size:21px;
-color:#555555;
-}
 
-
-blockquote{
-margin:0 0 22px 0;
-padding:22px 20px;
-}
-
-blockquote p{
-margin:0;
-}
-
-
-.centered {
-float:none;
-margin:0 auto;		
-}
-
-.texthighlight{
-font-size:21px;
-}
-
-@media (min-width: 768px) {
-  .row {
-    margin-right: 0;
-  margin-left: 0;
-  }
-}
 
 
 
@@ -183,21 +92,7 @@ margin: 0 auto;
 overflow: auto;	
 }
 
-html,
-body {
-height: 100%;
-}
 
-body{
-height:100%;
-color:#555555;
-line-height:1.6;
-background-color:#fff;
-font-size:14px;
-font-family:"pt sans", Arial, sans-serif;
-background-attachment:fixed;
-font-weight:normal;
-}
 
 
 
@@ -313,92 +208,20 @@ color:#555555;
 /***menu***/
 
 
-.navbar-toggle {
-  position: relative;
-  float: right;
-  width: 48px;
-  height: 34px;
-  padding: 6px 12px;
-  margin-top: 8px;
-  margin-bottom: 8px;
-  background-color: #fff;
-  border: none;
-  border-radius: 0;
-}
-
-.navbar-toggle:hover,
-.navbar-toggle:focus {
-  background-color: transparent;
-}
-
-.menudesktopcolor{
-background:transparent;
-transition: 0.5s ease;
-}
-.menudesktopcolor.scrolled{
-  background:#f1f1f1 !important; 
-}
-
-
-.navbar {
-min-height: 84px;
-  padding-right: 15px;
-  padding-left: 15px;
-  margin-bottom: 0px;
- border-radius: 0;
-}
-
-
-#nav ul{
-margin-top:39px;
-}
-
-
-.nav {
-  padding-left: 0;
-  margin-bottom: 0;
-  list-style: none;
-}
-
-
-.nav > li {
-  position: relative;
-  display: inline-block;
-}
-
-.nav > li > a:link, .nav > li > a:visited {
-  position: relative;
-  display: inline-block;
-  padding: 3px 10px;
-color:#151c4a;
-font-size:14px;
-text-transform:uppercase;
-border-left: 4px solid #151c4a;
-border-radius: 4px;
-line-height: 20px;
-
-}
-
-
-.nav a:hover {
-  border-bottom: 3px solid #151c4a;
-    transition: width .5s ease, background-color .5s ease;
-
-}
 
 
 
-.nav a.active {
-  border-bottom: 4px solid #151c4a;
-}
 
-.nav a {
-	position: relative;
-	display: inline-block;
-	margin-right:20px;
-margin-left:20px;
-	outline: none;
-}
+
+
+
+
+
+
+
+
+
+
 
 /***menu end***/
 
@@ -594,13 +417,14 @@ margin-right:20px;
 margin-bottom:20px;
 border:#f07073 10px solid;
 float:left;
-/*white-space: nowrap;*/
+white-space: nowrap;
 }
 
 .aboutusbackground h3{
-margin: 0 0 10px 0;
+margin: 0px 0 10px 0;
 font-size:27px;
 text-transform:uppercase;
+font-family:arvo;
 }
 
 .aboutusbackground h5{
@@ -894,7 +718,7 @@ color:#90d965;
 padding:10px;
 border:#fff 1px solid;
 margin-bottom:10px;
-margin-top:10px;
+margin-top:10;
 }
 
 .servicecolumninner{
@@ -1107,7 +931,10 @@ margin-bottom:30px;
 
 #options li a:link, #options li a:visited {
 text-transform:uppercase;
+font-size:bold;
 border:#fff 1px solid;
+font-size:21px;
+font-family:arvo;
 margin-right:10px;
 color:#fff;
 padding:5px 10px;
@@ -1319,6 +1146,7 @@ font-size:60px;
 .section4 a.toplink:link, .section3 a.toplink:visited {
 font-weight:bold;
 text-transform:uppercase;
+font-family:arvo;
 -webkit-transition: all 0.5s ease;
      -moz-transition: all 0.5s ease;
        -o-transition: all 0.5s ease;
@@ -1421,7 +1249,7 @@ cursor:move;
 
 
 .footerbottom{ 
-background:#f07073 url(../images/bgblue.png) repeat;
+background:#f07073 url(../images/bgred.png) repeat;
 float:left;
 width:100%;
 padding-bottom:21px;
@@ -1448,8 +1276,10 @@ margin-left:-20px;
 .buttonmain2 a:link, .buttonmain2 a:visited{
 font-size:27px;
 text-transform:uppercase;
+font-family:arvo;
 font-weight:bold;
 color:#fff;
+padding-left:0px;
 -webkit-transition: all 0.5s ease;
      -moz-transition: all 0.5s ease;
        -o-transition: all 0.5s ease;
@@ -1513,6 +1343,7 @@ margin-bottom:42px;
 
 #main input{
 font-size:18px;
+color:#f07073;
 border:none;
 box-shadow:none;
 outline:none;
@@ -1523,6 +1354,7 @@ width:100%;
 }
 
 #main .contact1 input {
+color:#f07073;
 background:#fff;
 box-shadow:none;
 border:none;
@@ -1542,6 +1374,7 @@ outline:none;
 
 
 #main .contact2 input {
+color:#f07073;
 background:#fff;
 box-shadow:none;
 border:none;
@@ -1567,6 +1400,7 @@ outline:none;
 #main .textarea{
 border:#fff 3px solid;
 font-size:18px;
+color:#f07073;
 box-shadow:none;
 outline:none;
 width:100%;
@@ -1596,6 +1430,7 @@ text-transform:uppercase;
 background:transparent;
 color:#fff;
 font-size:22px;
+font-family:arvo;
 font-weight:bold;
 margin: 21px auto 0 auto ;
 padding:15px 40px;
@@ -1609,7 +1444,7 @@ transition: all .1s;
 -o-transition: all .1s; 
 }
 #main .buttoncontact:hover {
-color: black;
+color:#f07073;
 border:none;
 box-shadow:none;
 outline:none;
@@ -1619,7 +1454,7 @@ border:2px solid #fff;
 #main ::-webkit-input-placeholder { color:#f07073; }
 #main ::-moz-placeholder { color:#f07073; } 
 #main :-ms-input-placeholder { color:#f07073; } 
-/*#main :input:-moz-placeholder { color:#f07073; }*/
+#main :input:-moz-placeholder { color:#f07073; }
 
 .footerbottom h5 {
 text-align:center;
@@ -2085,49 +1920,6 @@ border:0;
 
 
 /*********hover effect end*********/
-#text-111{
-        margin-bottom: 20px;
-    }
-
-#text-1{
-        margin-bottom: 50px;
-    }
-
-#text-1111{
-        margin-bottom: 50px;
-    }
-
-#text-11{
-        margin-bottom: 20px;
-    }
-
-@media (max-width: 400px) {
-    p{
-        font-size: 12px ;
-    }
-    #text-111{
-        font-size: 15px;
-        border-bottom: 0;
-    }
-    #text-11{
-        font-size: 15px;
-        border-bottom: 0;
-    }
-    #text-1111{
-        font-size: 15px;
-        border-bottom: 0;
-    }
-    #text-1{
-        font-size: 15px;
-        border-bottom: 0;
-    }
-    
-}
-@media (max-width: 440px) {
-    .toplinkwrapper{
-        display: none;
-    }
-}
 
 
 
