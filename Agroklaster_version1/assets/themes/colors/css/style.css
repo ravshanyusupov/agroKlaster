@@ -101,7 +101,6 @@ font-size:44px;
 p{
 color:#555555;
 font-size:14px;
-font-family:"pt sans" arial, san-serif;
 font-weight:normal;
 line-height:1.6;
 margin:0 0 22px 0;
@@ -138,7 +137,7 @@ font-size:21px;
   }
 }
 
-}
+
 
 /********* reset end *********/
 
@@ -595,14 +594,13 @@ margin-right:20px;
 margin-bottom:20px;
 border:#f07073 10px solid;
 float:left;
-white-space: nowrap;
+/*white-space: nowrap;*/
 }
 
 .aboutusbackground h3{
-margin: 0px 0 10px 0;
+margin: 0 0 10px 0;
 font-size:27px;
 text-transform:uppercase;
-font-family:arvo;
 }
 
 .aboutusbackground h5{
@@ -896,7 +894,7 @@ color:#90d965;
 padding:10px;
 border:#fff 1px solid;
 margin-bottom:10px;
-margin-top:10;
+margin-top:10px;
 }
 
 .servicecolumninner{
@@ -1109,10 +1107,7 @@ margin-bottom:30px;
 
 #options li a:link, #options li a:visited {
 text-transform:uppercase;
-font-size:bold;
 border:#fff 1px solid;
-font-size:21px;
-font-family:arvo;
 margin-right:10px;
 color:#fff;
 padding:5px 10px;
@@ -1324,7 +1319,6 @@ font-size:60px;
 .section4 a.toplink:link, .section3 a.toplink:visited {
 font-weight:bold;
 text-transform:uppercase;
-font-family:arvo;
 -webkit-transition: all 0.5s ease;
      -moz-transition: all 0.5s ease;
        -o-transition: all 0.5s ease;
@@ -1427,7 +1421,7 @@ cursor:move;
 
 
 .footerbottom{ 
-background:#f07073 url(../images/bgred.png) repeat;
+background:#f07073 url(../images/bgblue.png) repeat;
 float:left;
 width:100%;
 padding-bottom:21px;
@@ -1454,10 +1448,8 @@ margin-left:-20px;
 .buttonmain2 a:link, .buttonmain2 a:visited{
 font-size:27px;
 text-transform:uppercase;
-font-family:arvo;
 font-weight:bold;
 color:#fff;
-padding-left:0px;
 -webkit-transition: all 0.5s ease;
      -moz-transition: all 0.5s ease;
        -o-transition: all 0.5s ease;
@@ -1521,7 +1513,6 @@ margin-bottom:42px;
 
 #main input{
 font-size:18px;
-color:#f07073;
 border:none;
 box-shadow:none;
 outline:none;
@@ -1532,7 +1523,6 @@ width:100%;
 }
 
 #main .contact1 input {
-color:#f07073;
 background:#fff;
 box-shadow:none;
 border:none;
@@ -1552,7 +1542,6 @@ outline:none;
 
 
 #main .contact2 input {
-color:#f07073;
 background:#fff;
 box-shadow:none;
 border:none;
@@ -1578,7 +1567,6 @@ outline:none;
 #main .textarea{
 border:#fff 3px solid;
 font-size:18px;
-color:#f07073;
 box-shadow:none;
 outline:none;
 width:100%;
@@ -1608,7 +1596,6 @@ text-transform:uppercase;
 background:transparent;
 color:#fff;
 font-size:22px;
-font-family:arvo;
 font-weight:bold;
 margin: 21px auto 0 auto ;
 padding:15px 40px;
@@ -1622,7 +1609,7 @@ transition: all .1s;
 -o-transition: all .1s; 
 }
 #main .buttoncontact:hover {
-color:#f07073;
+color: black;
 border:none;
 box-shadow:none;
 outline:none;
@@ -1632,7 +1619,7 @@ border:2px solid #fff;
 #main ::-webkit-input-placeholder { color:#f07073; }
 #main ::-moz-placeholder { color:#f07073; } 
 #main :-ms-input-placeholder { color:#f07073; } 
-#main :input:-moz-placeholder { color:#f07073; }
+/*#main :input:-moz-placeholder { color:#f07073; }*/
 
 .footerbottom h5 {
 text-align:center;
@@ -2098,6 +2085,49 @@ border:0;
 
 
 /*********hover effect end*********/
+#text-111{
+        margin-bottom: 20px;
+    }
+
+#text-1{
+        margin-bottom: 50px;
+    }
+
+#text-1111{
+        margin-bottom: 50px;
+    }
+
+#text-11{
+        margin-bottom: 20px;
+    }
+
+@media (max-width: 400px) {
+    p{
+        font-size: 12px ;
+    }
+    #text-111{
+        font-size: 15px;
+        border-bottom: 0;
+    }
+    #text-11{
+        font-size: 15px;
+        border-bottom: 0;
+    }
+    #text-1111{
+        font-size: 15px;
+        border-bottom: 0;
+    }
+    #text-1{
+        font-size: 15px;
+        border-bottom: 0;
+    }
+    
+}
+@media (max-width: 440px) {
+    .toplinkwrapper{
+        display: none;
+    }
+}
 
 
 
