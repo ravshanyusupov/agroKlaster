@@ -13,8 +13,9 @@
 <link rel="stylesheet" href="assets/themes/colors/css/ie8.css"/>
 <![endif]-->	
     <!--[if lt IE 9]>
-      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+
     <![endif]-->
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
 <script src="assets/themes/colors/js/jquery.js"></script>
 <script src="assets/themes/colors/js/jquery-migrate.js"></script>
 <script src="assets/themes/colors/js/modernizr.custom.js"></script>
@@ -23,7 +24,7 @@ $(window).load(function () {
 $('#mask').delay(3000).fadeOut('slow');
 });
 </script>
-<link href="assets/themes/colors/css/bootstrap.css" rel="stylesheet">
+
 <link href="assets/themes/colors/css/style.css" rel="stylesheet">
 <link href="assets/themes/colors/css/media.css" rel="stylesheet">
  <link rel="stylesheet" href="assets/themes/colors/css/font-awesome.css">
@@ -35,44 +36,54 @@ $('#mask').delay(3000).fadeOut('slow');
 body{
 background:#fff url(assets/themes/colors/images/2.jpg) top center no-repeat fixed;
 }
-</style>	
+</style>
+<!--      <link href="assets/themes/colors/css/bootstrap.css" rel="stylesheet">-->
 </head>
 <body>
-<div id="0"></div>
-<!--/menu--> 
-<section class="navbar-fixed-top">
-<div id="nav">
-<nav class="wrapper100percent navbar menudesktopcolor navbar-default" role="navigation">
-  <div class="navbar-header">
-    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse" value="off">
-      <span class="sr-only"></span>
-      <span class="icon-bar"></span>
-      <span class="icon-bar"></span>
-      <span class="icon-bar"></span>
+<!--<div id="0"></div>-->
+<!--/menu-->
+
+
+
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="javascript:void(0)">Logo</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+      <span class="navbar-toggler-icon"></span>
     </button>
-<a class="navbar-brand" href="index.html">
-<img src="assets/themes/colors/images/logo_header.png" style="width:250px; height: 80px;" alt="logo"/>
-</a>
- </div>
-  <div class="navbar-collapse navbar-ex1-collapse "> 
-<nav class="cl-effect-12">
-<!--/menu singlepage--> 
-<ul class="nav navbar-nav pull-right">
- <li><a href="#0">БОШ САХИФА</a></li>
- <li><a href="#1">БИЗ ҲАҚИМИЗДА</a></li>
- <li><a href="#2">КОРПОРАТИВ БОШҚАРУВ</a></li>
- <li><a href="#3">ОАВ ХИЗМАТЛАР</a></li>
- <li><a href="#4">АЛОҚАЛАР</a></li>
- <li><a href="#"><img style="height: 25px;" src="assets/uz.png"></a></li>
- <li><a href="#"><img style="height: 25px;" src="assets/ru.png"></a></li>
- <li><a href="#"><img style="height: 25px;" src="assets/en.png"></a></li> 
-  </ul>
-<!--/menu singlepage end--> 
+    <div class="collapse navbar-collapse" id="mynavbar" style="">
+      <ul class="navbar-nav" style="">
+        <li class="nav-item">
+          <a class="nav-link" href="javascript:void(0)">БОШ САХИФА</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="javascript:void(0)">БИЗ ҲАҚИМИЗДА</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="javascript:void(0)">КОРПОРАТИВ БОШҚАРУВ</a>
+        </li>
+          <li class="nav-item">
+          <a class="nav-link" href="javascript:void(0)">ОАВ ХИЗМАТЛАР</a>
+        </li>
+          <li class="nav-item">
+          <a class="nav-link" href="javascript:void(0)">АЛОҚАЛАР</a>
+        </li>
+      </ul>
+    </div>
+  </div>
 </nav>
-</div><!-- /.navbar-collapse -->
-</nav>
- </div>
- </section>
+
+
+
+
+
+
+
+
+
+
+
 <div id="cbp-so-scroller">
 <header class="topwrapwrapper paralax1">
 <div id="mask"></div>
@@ -92,7 +103,8 @@ background:#fff url(assets/themes/colors/images/2.jpg) top center no-repeat fixe
 </li>
 </ul>
 </section> 
-</header><!--container end-->
+</header>
+</div><!--container end-->
 <!--CHUNKS FOR EVERY PAGE SECTION-->
 <div class="wrapper100percent section1">
 <div id="1" class="sectionwrapper">
@@ -926,7 +938,7 @@ Nam liber tempor cum soluta nobis option congue imperdiet doming id quod mazim p
 
 
  <script src="assets/themes/colors/js/smoothscroll.js"></script>
-<script src="assets/themes/colors/js/bootstrap.js"></script>	
+<!--<script src="assets/themes/colors/js/bootstrap.js"></script>	-->
 <script src="assets/themes/colors/js/classie.js"></script>
 <script src="assets/themes/colors/js/cbpscroller.js"></script>
 <script src="assets/themes/colors/js/jquery.bxslider.js"></script>
@@ -942,5 +954,7 @@ Nam liber tempor cum soluta nobis option congue imperdiet doming id quod mazim p
     $('nav').toggleClass('scrolled',$(this).scrollTop() > 200);
   });
 </script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
